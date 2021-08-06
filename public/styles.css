@@ -1,0 +1,203 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    flex-basis: 600px;
+}
+#inicio{
+    width: 80%;
+    height: 800px;
+    background: url(https://i.blogs.es/aee11a/proyectores1/2560_3000.jpg); 
+    opacity: 1.2;
+    background-size:cover ; 
+    background-attachment: fixed;
+    display: block;
+    text-align: center;
+    margin: 0 ;
+    padding: 20%;
+    align-content: flex-start;
+
+}
+header{
+    width: 80%;
+    height: 150px;
+   font-family: serif;
+    display: block;
+    text-align: center;
+    padding: 5%;
+    flex: 1;
+
+} 
+header h2{
+    font-family: serif;
+    font-size: 40px;
+    color: rgb(72, 44, 172);
+    padding: 0;
+    justify-content: space-evenly;
+
+}
+
+header h3{
+    font-family: serif;
+    font-size: 35px;
+    height: 40px;
+    color: rgb(129, 75, 21);
+}
+
+h1{
+    font-family: serif;
+    font-size: 50px;
+    color: rgb(226, 167, 4);
+}
+
+h2#revisa{
+    font-size: 40px;
+    color: rgb(231, 19, 161)
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+h4{
+    font-size: 1.5em;
+    text-align: center;
+}
+button{
+    background: none;
+    color: #d6da0b;
+    border: 2px solid;
+    padding: 1em  2em;
+    font-size: 1em;
+    transition: color 0.35s, transform 0.35s, box-shadow 0.35, border-color 0.35s ;
+
+}
+
+button:hover{
+    border-color: #9b0606;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #0a0a0a;
+    transform: translateX(1.5em);
+}
+
+#a{
+    color: rgb(211, 198, 22);
+    font-family:'Segoe UI', Tahoma;
+    font-size: 40px;
+}
+#b{
+    font-size: 40px;
+    color: slateblue;
+}
+@media (max-width: 1300px){
+    h1{
+        color: #cc1029;
+        font-family:serif;
+    }
+}
+section{
+    width: auto;
+    height: 2000px;
+    border: 5px solid rgb(188, 144,231);
+    background-color: rgb(188, 144, 231);
+}
+.acerca{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #000;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+@media (max-width: 1300px){
+    p{
+        color: rgb(197, 52, 52);
+        
+    }
+}
+img{
+    display: inline-flex;
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(214, 29, 106);
+    justify-content: flex-end;
+    border-radius: 50px;
+    border-width: 0.2em;
+    transition: color 0.25s, transform 0.5s, box-shadow 0.25s, border-color 0.1s;
+}
+img#ima1{
+    width: 700px;
+    height: 700px;
+}
+figure#pro{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#ima1:hover{
+    background-color: #c18c5d;
+    border-color: rgb(4, 109, 35);
+    color: rgb(193, 255, 24);   
+    cursor: pointer;
+    box-shadow: 10px 6px 5px 16px rgb(1, 51, 51);
+    transform: skew(20deg) scale(1.2);
+}
+img:hover{
+    background-color: #c18c5d;
+    color: rgb(3, 37, 37);   
+    cursor: pointer;
+    box-shadow: 10px 6px 5px 16px darkcyan;
+    transform: translateY(50px) scale(0.8);;
+}
+.Servicios{
+    background-color: rgb(4, 45, 61);
+    display: flex;
+    padding: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #e8ee95;
+    margin: auto;
+}
+
+@media (max-width: 2000px){
+    .servicios{
+        color: #3a0ca3;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    }
+}
+
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: green;
+    clear: right;
+    
+}
+
+@media (max-width: 2000px){
+    footer{
+        color: blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    }
+}
+.contactos{
+    text-align: center;
+    height: auto;
+    
+}
